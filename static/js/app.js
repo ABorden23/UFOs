@@ -24,7 +24,7 @@ function buildTable(data) {
   });
 }
 
-function handleClick() 
+function handleClick() {
   let date = d3.select("#datetime").property("value");
 
   // create a variable to get all table data and assign a var called variable data
@@ -38,6 +38,7 @@ function handleClick()
 // rebuild the table with filter data 
 
 buildTable(filteredData);
+}
 
 // 1. Create a variable to keep track of all the filters as an object.
 
