@@ -24,7 +24,7 @@ function buildTable(data) {
   });
 }
 
-function handleClick() {
+function handleClick() 
   let date = d3.select("#datetime").property("value");
 
   // create a variable to get all table data and assign a var called variable data
@@ -78,5 +78,5 @@ function updateFilters() {
   // 2. Attach an event to listen for changes to each filter
   d3.selectAll("#filter-btn").on("click", handleClick);
 
-  // Build the table when the page loads
+    // Build the table when the page loads
   buildTable(tableData);
