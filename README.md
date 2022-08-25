@@ -8,7 +8,7 @@ To build and depoy Javascript functions, create, populate and build a filter sea
 
 ## Overview:
 
-A client names Dana would like us to provide an in-dephth analysis of UFO sightings using a filter search. 
+A client named Dana would like us to provide an in-dephth analysis of UFO sightings using a filter search. 
 
 Using JavaScript we have created an HTML webpage using bootstrap/css compenents to modify the appearance of the website.
 
