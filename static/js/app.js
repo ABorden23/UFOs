@@ -59,13 +59,14 @@ function updateFilters() {
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
     if (elementValue) {
-      filters[filterId] = elementValue
+      filters[filterId] = elementValue;
     } else {
       delete filterId[filterId];
     }
   
     // 6. Call function to apply all filters and rebuild the table
-    filterTable(); }
+    filterTable(); 
+  }
   
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
@@ -77,7 +78,7 @@ function updateFilters() {
     // matches the filter values
 
     Object.entries(filters);forEach(([key,value]) => {
-      filteredData = filteredData.filter(row =>[key] === value);
+      filteredData = filteredData.filter(row => row[key] === value);
     });
     
   
@@ -88,7 +89,7 @@ function updateFilters() {
   // 2. Attach an event to listen for changes to each filter
   // d3.selectAll("#filter-btn").on("click", handleClick);
 
-  d3.selectAll("input"). on("change",updateFilters);
+  d3.selectAll("input").on("change",updateFilters);
 
     // Build the table when the page loads
   buildTable(tableData);
