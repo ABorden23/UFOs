@@ -4,7 +4,7 @@ Link to Website ---> [The Truth Is Out There](https://aborden23.github.io/UFOs/)
 
 ## Purpose:
 
-To build and depoy Javascript functions, create, populate and build a filter search using Javascript and HTML.
+To build and depoy JavaScript functions, create, populate and build a filter search using JavaScript and HTML.
 
 ## Overview:
 
