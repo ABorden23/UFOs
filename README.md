@@ -2,7 +2,7 @@
 
 [The Truth Is Out There](https://aborden23.github.io/UFOs/)
 
-Purpose:
+## Purpose:
 
 Explain the strengths and weaknesses of JavaScript "standard" and JavaScript version ES6+.
 Describe JavaScript syntax and ideal use cases.
@@ -18,7 +18,17 @@ A client names Dana would like us to provide an in-dephth analysis of UFO sighti
 Using JavaScript we have created an HTML webpage using bootstrap/css compenents to modify the appearance of the website.
 
 
-Results:
+## Results:
+
+![This is an image](https://github.com/ABorden23/UFOs/blob/main/static/images/html%20page%20preview.jpeg)
+
+
+Before using filter
+
+![This is an image](https://github.com/ABorden23/UFOs/blob/main/static/images/filter%20website%20preview.jpeg)
+
+After using filter 
+
 
 
 Summary:
