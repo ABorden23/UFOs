@@ -2,12 +2,25 @@
 
 [The Truth Is Out There](https://aborden23.github.io/UFOs/)
 
+Purpose:
+
+Explain the strengths and weaknesses of JavaScript "standard" and JavaScript version ES6+.
+Describe JavaScript syntax and ideal use cases.
+Build and deploy JavaScript functions, including built-in functions.
+Convert JavaScript functions to arrow functions.
+Build and deploy forEach (JavaScript for loop).
+Create, populate, and dynamically filter a table using JavaScript and HTML
+
 Overview of the analysis:
 
-The purpose is well defined (2 pt)
+A client names Dana would like us to provide an in-dephth analysis of UFO sightings using a filter search. 
+
+Using JavaScript we have created an HTML webpage using bootstrap/css compenents to modify the appearance of the website.
+
+
 Results:
 
-There is a description of how to perform a search, with images. (4 pt)
+
 Summary:
 
 The summary addresses one drawback of this webpage (2 pt)
